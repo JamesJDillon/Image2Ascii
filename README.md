@@ -7,8 +7,10 @@ The program is best used redirected in to a textfile. E.g:
 ```
 python main.py > batman.txt
 ```
+###Input:
+![Batman](batman.jpg)
 
-##Output:
+###Output:
 
 ```
                                                                                  
