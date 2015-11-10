@@ -52,9 +52,9 @@ for x in range(STEP_WIDTH, IMAGE_WIDTH, STEP_WIDTH):
 		average = getAverage(x, y)
 		'''This line is dense. Essentially, it searches the characters dictionary
 		for the value that's closest to the average we got previous, and prints the
-		corresponding character. We use end="" to avoid newlines.'''
+		corresponding character. We use end="" to avoids newlines.'''
 		print(characters[min(characters, key=lambda x:abs(x - average))], end="")
-	print("\n")
+	print("\n", end="")
 
 
 
