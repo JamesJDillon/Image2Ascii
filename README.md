@@ -1,6 +1,11 @@
 #Image2Ascii
 A python program that takes an image and produces an ASCII version of it.
 
+##Requirements:
+Uses Pillow. Can easily be installed using pip:
+```
+python -m pip install Pillow
+```
 ##Usage:
 The program is best used redirected in to a textfile. E.g:
 
