@@ -3,7 +3,7 @@ from PIL import Image
 #Opens the image, converts it to greyscale and saves it.
 img = Image.open('batman.jpg')
 img = img.convert('LA')
-#Thanks Lee!
+#Thanks Lee
 img = img.rotate(90, expand=True)
 img.save('greybatman.png')
 
@@ -28,7 +28,7 @@ characters = {
 IMAGE_WIDTH, IMAGE_HEIGHT = img.size
 
 STEP_WIDTH = 40
-STEP_HEIGHT = 35
+STEP_HEIGHT = 20
 
 '''Gets the average of all pixel values within the step.
 E.g, STEP_WIDTH = 10 and STEP_HEIGHT = 10. Adds up the values of all
